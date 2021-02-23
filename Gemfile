@@ -5,9 +5,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
 
+gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'jbuilder', '~> 2.7'
 gem 'puma', '~> 5.0'
 gem 'rails', '~> 6.1.1'
+gem 'rubocop', '~> 1.10'
+gem 'rubocop-rails', '~> 2.9', '>= 2.9.1'
 gem 'sass-rails', '>= 6'
 gem 'sqlite3', '~> 1.4'
 gem 'turbolinks', '~> 5'
