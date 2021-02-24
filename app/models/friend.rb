@@ -2,4 +2,5 @@
 
 # friend model
 class Friend < ApplicationRecord
+  belongs_to :user
 end
