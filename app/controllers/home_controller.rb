@@ -4,5 +4,7 @@
 class HomeController < ApplicationController
   def index; end
 
-  def about; end
+  def about;
+    @instance_variable = 'hello world'
+  end
 end
